@@ -50,7 +50,7 @@ export const StyledInput = styled.input`
 export const StyledButton = styled.button`
   margin-top: 2rem;
   border: transparent 1px;
-  color: #282c34;
+  color: #2b343f;
   border-radius: 3px;
   background: salmon;
   font-size: 1rem;
