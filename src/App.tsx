@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { useSelector } from 'react-redux';
-import logo from './logo.svg';
+import RegisterForm from './components/RegisterForm/register-form';
 import './App.css';
 
 const App = () => {
@@ -14,6 +14,7 @@ const App = () => {
         <p>
           <code>WORN</code>
         </p>
+        <RegisterForm />
       </header>
     </div>
   );
