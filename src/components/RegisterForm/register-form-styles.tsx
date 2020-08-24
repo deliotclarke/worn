@@ -2,18 +2,18 @@ import styled from 'styled-components';
 
 export const StyledFormWrapper = styled.div`
   box-sizing: border-box;
-  border: #fafafa solid 3px;
+  border: #e1e1d6 solid 3px;
   border-radius: 3px;
   padding: 2rem;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: auto;
+  align-self: center;
   width: 25rem;
 `;
 
 export const StyledHeader = styled.header`
-  color: #fafafa;
+  color: #e1e1d6;
   font-weight: 700;
 `;
 
@@ -37,21 +37,20 @@ export const StyledLabel = styled.label`
 export const StyledInput = styled.input`
   box-sizing: border-box;
   display: flex;
+  background: #fafafa;
+  color: #2b343f;
   border: transparent;
   border-radius: 2px;
   width: 65%;
   height: 1.5rem;
   font-size: 1rem;
-  &::placeholder {
-    padding-left: 0.2rem;
-    padding-right: 0.2rem;
-  }
+  padding-left: 0.2rem;
 `;
 
 export const StyledButton = styled.button`
   margin-top: 2rem;
   border: transparent 1px;
-  color: #282c34;
+  color: #2b343f;
   border-radius: 3px;
   background: salmon;
   font-size: 1rem;
