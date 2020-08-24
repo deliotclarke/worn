@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { useSelector } from 'react-redux';
-import RegisterForm from './components/RegisterForm/register-form';
+import RegisterForm from './components/RegisterForm';
 import './App.css';
 
 const App = () => {
